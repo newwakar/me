@@ -5,6 +5,13 @@
   <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeL_1UGG3AgUpX-8hl1JdQYJHBnVObkWp0mJcbfVU4Xw&s">
 </head>
 <body>
-<iframe src="https://flowiseai-railway-production-26e7.up.railway.app/chatbot/99053f93-a257-4e05-8a18-8633a270a7d6" height="1300" width=90 title="WakarAI"></iframe>
+<flowise-fullchatbot></flowise-fullchatbot>
+<script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.initFull({
+        chatflowid: "99053f93-a257-4e05-8a18-8633a270a7d6",
+        apiHost: "https://flowiseai-railway-production-26e7.up.railway.app",
+    })
+</script>
 </body>
 </html>
